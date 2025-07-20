@@ -1,1 +1,4 @@
-
+Book class and Library class encapsulate relevant data and methods in them.
+The state of the book is managed internally. 
+Methods are there for adding, displaying, borrowing and returning books. 
+Books are stored in an ArrayList. 
