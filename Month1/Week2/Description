@@ -1,1 +1,3 @@
 It contains all the work from week 2
+
+The class Animal has an attribute "name" and a method "makesound()". The Animal class is extended by classes dog and cat. "makesound()" overrides classes dog and cat. The runtime determination of which makeSound() method to call based on the object type.
