@@ -1,0 +1,10 @@
+CREATE DATABASE testdb;
+USE testdb; -- for MySQL
+-- OR
+\c testdb; -- for PostgreSQL
+
+CREATE TABLE student (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    marks INT
+);
