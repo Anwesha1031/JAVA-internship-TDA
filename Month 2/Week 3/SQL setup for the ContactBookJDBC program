@@ -1,0 +1,11 @@
+CREATE DATABASE contactdb;
+USE contactdb;  -- MySQL
+-- OR
+\c contactdb;  -- PostgreSQL
+
+CREATE TABLE contacts (
+    id INT PRIMARY KEY AUTO_INCREMENT, -- PostgreSQL: SERIAL PRIMARY KEY
+    name VARCHAR(50),
+    phone VARCHAR(15),
+    email VARCHAR(50)
+);
